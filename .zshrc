@@ -27,14 +27,17 @@ source $ZSH/oh-my-zsh.sh
 
 
 # -- CONFIGURATION ----
+DEFAULT_USER=$(whoami)
 POWERLEVEL9K_MODE="awesome-patched"
 
+
+# -- PATH MANAGEMENT ----
 # Add Visual Studio Code (code)
 PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH
 
-# -- ALIASES
 
+# -- ALIASES ----
 # Open VSCode
 alias c='code'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
