@@ -40,6 +40,11 @@ export PATH
 # -- ALIASES ----
 # Open VSCode
 alias c='code'
+
+
+# -- FUNCTIONS ----
+weather() { curl -4 wttr.in/${1:-charlotte} }
+
 # -- EXTRAS --
 # rupa/z.sh
 . /usr/local/etc/profile.d/z.sh
