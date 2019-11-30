@@ -40,5 +40,9 @@ export PATH
 # -- ALIASES ----
 # Open VSCode
 alias c='code'
+# -- EXTRAS --
+# rupa/z.sh
+. /usr/local/etc/profile.d/z.sh
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
