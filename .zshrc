@@ -11,7 +11,21 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="agnoster"
 ZSH_THEME="powerlevel10k/powerlevel10k"
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-better-npm-completion
+  zsh-nvm
+  zsh-syntax-highlighting
+)
+
 source $ZSH/oh-my-zsh.sh
+
+
 # -- CONFIGURATION ----
 POWERLEVEL9K_MODE="awesome-patched"
 
