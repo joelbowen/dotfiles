@@ -10,5 +10,6 @@ else
 fi
 
 print_in_purple "\nInstalling homebrew apps...\n\n"
+print_in_yellow "This may take a while - go grab a cup of ☕️ or 🍵\n\n"
 
 eval "brew bundle"
