@@ -34,3 +34,12 @@ The following items have been added to Oh My Zsh
 - [custom/plugins/zsh-nvm](https://github.com/lukechilds/zsh-nvm)
 - [custom/plugins/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [custom/themes/powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+### Credits
+
+I gained inspiration for the general content and organization by looking through many public repos, most notably the following:
+- [driesvints/dotfiles](https://github.com/driesvints/dotfiles)
+- [sobolevn/dotfiles](https://github.com/sobolevn/dotfiles)
+- [paulirish/dotfiles](https://github.com/paulirish/dotfiles)
+- [alrra/dotfiles](https://github.com/alrra/dotfiles)
+- [gist/kevin-smets](https://gist.github.com/kevin-smets/8568070)
