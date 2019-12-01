@@ -1,3 +1,102 @@
+[alias]
+    # Special thanks to jlegrone for these aliases
+    # source: https://raw.githubusercontent.com/jlegrone/git-config/master/src/jlegrone.gitconfig
+    # info: https://github.com/jlegrone/git-config
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # List all available git aliases
+    # Usage: git aliases
+    aliases = "!git config -l | grep alias | cut -c 7-"
+
+    # List all remote branches, ordered by last commit date
+    # Usage: git branches
+    branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\" refs/remotes
+
+    # View all branches containing a given commit hash
+    # Usage: git contains <hash>
+    contains = branch -a --contains
+
+    # Update your current branch from develop
+    # ** Rewrites history **
+    # Usage: git up
+    up = "!git pull --rebase --autostash $(git upstream-or-origin) $(git develop-branch)"
+
+    # Start a feature branch based off of latest develop branch
+    # Usage: git start <name-of-feature>
+    start = "!sh -c \"git checkout $(git develop-branch) && git up && git cb feature/$1\" -"
+
+    # Start a hotfix branch based off of latest master branch
+    # Usage: git hotfix <name-of-production-patch>
+    hotfix = "!sh -c \"git checkout master && git pull && git cb hotfix/$1\" -"
+
+    # Create a "work in progress" commit with your current changes
+    # Usage: git wip
+    wip = !git add . && git commit -am "WIP" --no-verify
+
+    # Undo your last commit
+    # Usage: git undo
+    undo = reset --soft HEAD~1
+
+    # Amend your last commit to include current changes
+    # ** Rewrites history **
+    # Usage: git amend
+    amend = "!git add . && git commit --amend --no-edit --no-verify"
+
+    # Add staged changes to a specified commit (may introduce conflicts during rebase)
+    # ** Rewrites history **
+    # Usage: git fixup <commit-hash>
+    fixup = "!sh -c \"git commit --fixup $1 --no-verify && git rebase $1^ --interactive --autosquash --autostash\" -"
+
+    # Edit the message for a specified commit (may introduce conflicts during rebase)
+    # Note: functionally similar to performing an interactive rebase and using `reword` option
+    # ** Rewrites history **
+    # Usage: git reword <commit-hash>
+    reword = "!sh -c \"git checkout $1 && git commit --amend && git rebase HEAD $(git branch-name) --autostash\" -"
+
+    # Performs an interactive rebase starting from specified commit (may introduce conflicts during rebase)
+    # ** Rewrites history **
+    # Usage: git edit <commit-hash>
+    edit = "!sh -c \"git rebase $1^ --interactive --autostash\" -"
+
+    # Push the current branch to the remote "origin", and set it to track the upstream branch
+    # Usage: git publish
+    publish = "!git push -u origin $(git branch-name)"
+
+    # Remove the current branch from the remote
+    # Usage: git unpublish
+    unpublish = "!git push origin :$(git branch-name)"
+
+    # "Safer" force push -- see http://weiqingtoh.github.io/force-with-lease/
+    # Usage: git pushf
+    pushf = push --force-with-lease
+
+    # Delete merged branches
+    # Usage: git cleanup
+    cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+
+    # Create a new branch
+    # Usage: git cb <branch-name>
+    cb = checkout -b
+
+    # Show an abridged git log output, one line per commit
+    # Usage: git l
+    l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+
+    # Run git status with the short-format flag
+    # Usage: git s
+    s = status --short
+
+    # Get the current branch name (used in other aliases)
+    branch-name = "!git rev-parse --abbrev-ref HEAD"
+
+    # Get the develop branch (used in other aliases)
+    develop-branch = "!(git show-ref --quiet refs/heads/develop && echo develop) || echo master"
+
+    # Get remote name (prefer upstream over origin)
+    upstream-or-origin = "!(git remote | grep upstream) || echo origin"
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 [protocol]
 
 	# https://opensource.googleblog.com/2018/05/introducing-git-protocol-version-2.html

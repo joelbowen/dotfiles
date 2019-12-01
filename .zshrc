@@ -45,8 +45,6 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 # When mistakes have been made
 alias nuke="git clean -df && git reset --hard"
 # Git
-alias amend="git commit --amend --no-edit"
-alias amendall="git add . && amend"
 alias gl="git log --oneline --decorate --color"
 
 
