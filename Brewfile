@@ -8,6 +8,7 @@ brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'mas' # Mac App Store manager
+brew 'mysql' # Installs latest version of MySQL
 brew 'pgcli'
 brew 'postgresql', restart_service: true
 brew 'z'
@@ -31,6 +32,7 @@ cask 'navicat-for-postgresql'
 cask 'postman'
 cask 'sketch'
 cask 'slack'
+cask 'sequel-pro'
 cask 'tower'
 cask 'spotify'
 cask 'vlc'
