@@ -7,6 +7,7 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
+brew 'lzo'
 brew 'mas' # Mac App Store manager
 brew 'mysql' # Installs latest version of MySQL
 brew 'pgcli'
