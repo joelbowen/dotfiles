@@ -47,7 +47,8 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias nuke="git clean -df && git reset --hard"
 # Git
 alias gl="git log --oneline --decorate --color"
-
+# Pour my brews
+alias ibrew="cd ~/dotfiles && sh ./install/homebrew.sh"
 
 # -- FUNCTIONS ----
 weather() { curl -4 wttr.in/${1:-charlotte} }
