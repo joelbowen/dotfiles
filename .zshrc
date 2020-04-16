@@ -34,6 +34,7 @@ POWERLEVEL9K_MODE="awesome-patched"
 # -- PATH MANAGEMENT ----
 # Add Visual Studio Code (code)
 PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+PATH="$PATH:/usr/local/sbin"
 export PATH
 
 
