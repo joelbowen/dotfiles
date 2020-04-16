@@ -34,7 +34,13 @@ POWERLEVEL9K_MODE="awesome-patched"
 # -- PATH MANAGEMENT ----
 # Add Visual Studio Code (code)
 PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Add shared bin to PATH
 PATH="$PATH:/usr/local/sbin"
+# Add Go stuff
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+PATH=$PATH:$GOBIN
+
 export PATH
 
 
