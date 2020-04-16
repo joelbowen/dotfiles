@@ -26,5 +26,10 @@
     "terminal.external.osxExec": "iTerm.app",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 1,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
