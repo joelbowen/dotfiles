@@ -1,12 +1,12 @@
 ## Setup Steps
 
-Setting up a new machine is done in two parts.
+Setting up a new machine is easy, done in two parts.
 
 ### Part 1: Install (Apps, Shell, Dotfiles, etc.)
 
--   Sign into the Mac App Store so that `mas` will be able to install App Store apps
--   Run `sh ./install.sh`
--   Update some settings in **iTerm**
+1. Sign into the Mac App Store so that `mas` will be able to install App Store apps
+2. Run `sh ./install.sh`
+3. Update some settings in **iTerm**
     -   Select a Powershell patched font for iTerm (Preferences → Profiles → Text)
         -   Currently, I'm using `Inconsolata for Powerline`
     -   Select a color theme for iTerm (Preferences → Profiles → Colors → Color Presets)
@@ -15,14 +15,14 @@ Setting up a new machine is done in two parts.
 
 ### Part 2: Setup (Tooling and Configurations)
 
--   Launch **iTerm** (see your snazzy new setup)
--   Run `sh ./setup.sh`
--   Add license keys/logins for:
+1. Launch **iTerm** (see your snazzy new setup)
+2. Run `sh ./setup.sh`
+3. Add license keys/logins for:
     -   Git Tower
     -   Sketch
     -   Adobe CC (I also have to individually download the Adobe apps I use in CC 🙄)
     -   Navicat for PostgreSQL
--   Setup a new GitHub [personal access token](https://github.com/settings/tokens) for this machine
+4. Setup a new GitHub [personal access token](https://github.com/settings/tokens) for this machine
 
 ## Appendix
 
