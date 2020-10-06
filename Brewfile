@@ -13,6 +13,7 @@ brew 'mas' # Mac App Store manager
 brew 'mysql' # Installs latest version of MySQL
 brew 'pgcli'
 brew 'postgresql', restart_service: true
+brew 'yarn'
 brew 'z'
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
