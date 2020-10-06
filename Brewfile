@@ -42,5 +42,7 @@ cask 'vlc'
 cask 'zeplin'
 cask 'zoomus'
 
+# Mac Store apps via mas
+# https://github.com/mas-cli/mas
 mas 'Xcode', id: 497799835
 mas 'Space Gremlin', id: 414515628
