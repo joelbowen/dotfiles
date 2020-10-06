@@ -31,6 +31,8 @@
     "editor.formatOnType": true,
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.requireConfig": true,
     "editor.tabSize": 2,
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
