@@ -28,12 +28,12 @@
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 1,
     "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.requireConfig": true,
     "editor.tabSize": 2,
+    "editor.formatOnType": false,
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
