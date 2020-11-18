@@ -1,15 +1,21 @@
 . "./utils/helpers.sh"
 
 declare -a VSCODE_EXTENSIONS=(
-    dbaeumer.vscode-eslint # Eslint
-    esbenp.prettier-vscode # Prettier
-    ms-python.python # Pyhon
-    ms-vsliveshare.vsliveshare # Live Share
-    octref.vetur # Vue Tools
-    prisma.vscode-graphql # GraphQL Tooling
-    tombonnike.vscode-status-bar-format-toggle # Disable auto-formatting
-    vscode-icons-team.vscode-icons # File Icons
-    wix.vscode-import-cost # Print import file sizes
+    christian-kohler.npm-intellisense
+    dbaeumer.vscode-eslint
+    eamodio.gitlens
+    EditorConfig.EditorConfig
+    esbenp.prettier-vscode
+    golang.go
+    GraphQL.vscode-graphql
+    ms-python.python
+    ms-vsliveshare.vsliveshare
+    octref.vetur
+    rebornix.ruby
+    tombonnike.vscode-status-bar-format-toggle
+    vscode-icons-team.vscode-icons
+    wingrunr21.vscode-ruby
+    wix.vscode-import-cost
 )
 
 main() {
@@ -21,6 +27,6 @@ main() {
         execute "code --install-extension $i"
 
     done
-} 
+}
 
 main
