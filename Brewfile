@@ -1,6 +1,7 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
+tap 'heroku/brew'
 
 # Binaries
 brew 'awscli'
@@ -8,6 +9,7 @@ brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'go'
+brew 'heroku'
 brew 'lzo'
 brew 'mas' # Mac App Store manager
 brew 'mysql' # Installs latest version of MySQL
