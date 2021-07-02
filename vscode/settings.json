@@ -26,17 +26,16 @@
     "terminal.external.osxExec": "iTerm.app",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "editor.formatOnPaste": true,
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.requireConfig": true,
     "editor.tabSize": 2,
-    "editor.formatOnType": false,
+    "editor.formatOnType": true,
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
     },
     "ruby.useBundler": true, //run non-lint commands with bundle exec
     "ruby.useLanguageServer": true, // use the internal language server (see below)
@@ -54,4 +53,18 @@
     "files.associations": {
         "*.erb": "erb"
     },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "json.schemas": [
+      {
+        "name": "vscode-expo-manifest",
+        "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-42.0.0.json",
+        "fileMatch": [
+          "app.json",
+          "app.config.json"
+        ]
+      }
+    ],
 }
