@@ -39,7 +39,8 @@ create_symlinks() {
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 main() {
-    print_in_purple "\nCreating symbolic links...\n\n"
+    print_in_purple "\nCreating symbolic links for the following...\n\n"
+    echo $FILES_TO_SYMLINK $FOLDERS_TO_SYMLINK
 
     # Create dotfile symlinks in the home directory
     create_symlinks "$@"
