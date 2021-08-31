@@ -5,6 +5,7 @@ print_in_purple "\n • Install Homebrew and apps listed in Brewfile"
 print_in_purple "\n • Install Oh My Zsh"
 print_in_purple "\n • Create symlinks"
 print_in_purple "\n • Update your OSX defaults\n\n"
+print_in_purple "\n • You will then logout/restart before proceeding to Step 2\n\n"
 
 ask_for_confirmation "Ready to go?"
 
@@ -21,6 +22,7 @@ if answer_is_yes; then
 
     print_in_purple "\nAll done!\n\n"
     print_in_green "\nNote that some of these changes require a logout/restart to take effect.\n\n"
+    print_in_green "\nWhen you're ready, proceed to the next step with: $ sh ./setup.sh\n\n"
 
 else
     print_error "Aborted install"
