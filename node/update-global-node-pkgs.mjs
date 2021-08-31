@@ -9,7 +9,7 @@ globals = globals.stdout
   // Trim non alphanumeric, @, and spaces
   .map((e) => e.replace(/[^\w.@]+/g, " ").trim())
   // @TODO: Remove npm dep
-  .filter((e) => e.match(/^[^npm].*/))
+  .filter((e) => !e.includes("npm@"))
 
 // Remove first entry, the node path
 globals.shift()
