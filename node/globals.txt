@@ -1,1 +1,1 @@
-jest@27.1.0 tldr@3.3.7 zx@4.0.0
+jest@27.1.0 prettier@2.3.2 tldr@3.3.7 truffle@5.0.2 zx@4.0.0
