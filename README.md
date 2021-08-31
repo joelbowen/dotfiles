@@ -1,4 +1,22 @@
+Welcome to my dotfiles! I was inspired by [many others](#credits) before me, I created this repo by borrowing bits and pieces from other great repos, and building on them.
+
+**Jump straight to**
+* [Setting up a new machine](#new-machine)
+* [Running common maintenance tasks](#maintenance)
+
+---
 ## Maintenance
+
+### Manage global node packages
+To update the list of globally installed node packages, run:
+
+`./scripts/update-global-node-pkgs.mjs`
+
+_Requires that [xz](https://www.npmjs.com/package/zx) is already installed to run properly_
+
+To install global node packages, run:
+
+`sh ./scripts/install-global-node-pkgs.sh`
 
 ### Symlink new dotfiles
 1. Add your dotfile to this directory
