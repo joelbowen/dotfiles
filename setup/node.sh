@@ -3,4 +3,5 @@
 
 print_in_purple "\nInstalling latest stable version of Node\n\n"
 
-nvm i --lts
+# Install the latest version of node
+nvm i node
