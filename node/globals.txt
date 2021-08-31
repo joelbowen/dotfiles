@@ -1,6 +1,1 @@
-/Users/joel/.nvm/versions/node/v14.7.0/lib
-├── expo-cli@4.9.1
-├── jest@27.0.6
-├── npm@6.14.7
-└── tldr@3.3.7
-
+jest@27.1.0 tldr@3.3.7 zx@4.0.0
