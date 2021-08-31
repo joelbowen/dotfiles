@@ -1,4 +1,10 @@
-## Setup Steps
+## Maintenance
+
+### Symlink new dotfiles
+1. Add your dotfile to this directory
+2. Run `sh ./install/symlinks.sh`
+
+## New Machine
 
 Setting up a new machine is easy, done in two parts.
 
