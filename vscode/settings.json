@@ -1,70 +1,62 @@
 {
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "Inconsolata, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "eslint.lintTask.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript"],
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.vueIndentScriptAndStyle": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnPaste": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.requireConfig": true,
+  "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true // enable rubocop via bundler
     },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.fontFamily": "Inconsolata, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "editor.formatOnSave": true,
-    "eslint.lintTask.enable": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript"
-    ],
-    "prettier.printWidth": 120,
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 2,
-    "prettier.trailingComma": "all",
-    "prettier.vueIndentScriptAndStyle": true,
-    "terminal.external.osxExec": "iTerm.app",
-    "workbench.colorTheme": "Solarized Dark",
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
-    "editor.formatOnPaste": true,
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.requireConfig": true,
-    "editor.tabSize": 2,
-    "editor.formatOnType": true,
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "ruby.useBundler": true, //run non-lint commands with bundle exec
-    "ruby.useLanguageServer": true, // use the internal language server (see below)
-    "ruby.lint": {
-        "rubocop": {
-            "useBundler": true // enable rubocop via bundler
-        },
-        "reek": {
-            "useBundler": true // enable reek via bundler
-        }
-    },
-    "ruby.format": "rubocop", // use rubocop for formatting
-    "ruby.codeCompletion": "rcodetools",
-    "ruby.intellisense": "rubyLocate",
-    "files.associations": {
-        "*.erb": "erb"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "json.schemas": [
-      {
-        "name": "vscode-expo-manifest",
-        "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-42.0.0.json",
-        "fileMatch": [
-          "app.json",
-          "app.config.json"
-        ]
-      }
-    ],
+    "reek": {
+      "useBundler": true // enable reek via bundler
+    }
+  },
+  "ruby.format": "rubocop", // use rubocop for formatting
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.intellisense": "rubyLocate",
+  "files.associations": {
+    "*.erb": "erb"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.schemas": [
+    {
+      "name": "vscode-expo-manifest",
+      "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-42.0.0.json",
+      "fileMatch": ["app.json", "app.config.json"]
+    }
+  ],
+  "window.zoomLevel": 1
 }
