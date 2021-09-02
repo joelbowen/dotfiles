@@ -6,6 +6,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'sbdchd/neoformat'
 
 call plug#end()
+
+autocmd BufNewFile,BufRead *.mjs,*.jsx,*.tsx set filetype=javascript
+autocmd BufWritePre,InsertLeave *.ts,*.js,*.jsx,*.mjs,*.html,*.md Neoformat
+
 :set number
 :syntax enable
 
