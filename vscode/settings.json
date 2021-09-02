@@ -55,7 +55,10 @@
     {
       "name": "vscode-expo-manifest",
       "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-42.0.0.json",
-      "fileMatch": ["app.json", "app.config.json"]
+      "fileMatch": [
+        "app.json",
+        "app.config.json"
+      ]
     }
   ],
   "window.zoomLevel": 1
