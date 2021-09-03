@@ -62,6 +62,10 @@ alias ibrew="cd ~/dotfiles && sh ./install/homebrew.sh"
 # -- FUNCTIONS ----
 weather() { curl -4 wttr.in/${1:-charlotte} }
 
+function chpwd() {
+  emulate -L zsh
+  ls -a
+}
 # -- EXTRAS --
 # rupa/z.sh
 . /usr/local/etc/profile.d/z.sh
