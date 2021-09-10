@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'sbdchd/neoformat'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
