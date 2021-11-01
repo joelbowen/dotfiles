@@ -61,5 +61,9 @@
       ]
     }
   ],
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "ruby": "html"
+  },
   "window.zoomLevel": 1
 }
