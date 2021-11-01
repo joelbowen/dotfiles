@@ -65,5 +65,8 @@
     "erb": "html",
     "ruby": "html"
   },
+  "[ruby]": {
+    "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
   "window.zoomLevel": 1
 }
