@@ -49,3 +49,4 @@ cask 'zoomus'
 # https://github.com/mas-cli/mas
 mas 'Xcode', id: 497799835
 mas 'Space Gremlin', id: 414515628
+mas 'Boop', id: 1518425043
