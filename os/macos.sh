@@ -52,5 +52,8 @@ defaults write com.apple.systemuiserver menuExtras -array \
    "/System/Library/CoreServices/Menu Extras/Battery.menu" \
    "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
+# Enable key-repeating in VS Code, especially useful for the Vim extension
+$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 # Restart services
 killall Finder /System/Library/CoreServices/Finder.app
