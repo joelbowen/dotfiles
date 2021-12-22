@@ -1,0 +1,13 @@
+touch Today.md
+
+FILENAME=Today.md
+FILESIZE="$(wc -c <"$FILENAME" | xargs)"
+echo "Size of $FILENAME = $FILESIZE bytes."
+
+if [[ $FILESIZE -gt 0  ]]
+then
+	echo "The file has content"
+else
+	echo "The file is empty"
+	cat test.md > $FILENAME
+fi
