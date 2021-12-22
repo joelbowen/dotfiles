@@ -10,9 +10,9 @@ Welcome to my dotfiles! I was inspired by [many others](#credits) before me, I c
 ### Manage global node packages
 To update the list of globally installed node packages, run:
 
-`./scripts/update-global-node-pkgs.mjs`
+`./node/update-global-node-pkgs.mjs`
 
-_Requires that [xz](https://www.npmjs.com/package/zx) is already installed to run properly_
+_Requires that [zx](https://www.npmjs.com/package/zx) is already installed to run properly_
 
 To install global node packages, run:
 
