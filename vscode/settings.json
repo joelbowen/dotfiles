@@ -53,7 +53,7 @@
   "json.schemas": [
     {
       "name": "vscode-expo-manifest",
-      "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-43.0.0.json",
+      "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
       "fileMatch": [
         "app.json",
         "app.config.json"
@@ -66,6 +66,13 @@
   },
   "[ruby]": {
     "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
   },
   "window.zoomLevel": 1
 }
