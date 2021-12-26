@@ -1,3 +1,6 @@
+[user]
+        name = Joel Bowen
+        email = hello@joel.software
 [alias]
     # Special thanks to jlegrone for these aliases
     # source: https://raw.githubusercontent.com/jlegrone/git-config/master/src/jlegrone.gitconfig
