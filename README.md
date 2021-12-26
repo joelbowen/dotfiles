@@ -32,8 +32,9 @@ Setting up a new machine is easy, done in two parts.
 
 ### Part 1: Install (Apps, Shell, Dotfiles, etc.)
 
-1. Sign into the Mac App Store so that `mas` will be able to install App Store apps
-2. Run `sh ./install.sh`
+1. Pre-install:
+   a. Sign into the Mac App Store so that `mas` will be able to install App Store apps
+   b. Install XCode, command-line tools, and accept the T&C (`xcode-select --install` from Terminal)
 2. Run `sh ./part-1.sh`
 3. Update some settings in **iTerm**
    - Select a Powershell patched font for iTerm (Preferences → Profiles → Text)
