@@ -48,10 +48,6 @@ main() {
 
     # -- Create some custom symlinks --
 
-    # oh my zsh custom plugins and themes
-    symlink "$(pwd)/oh-my-zsh/plugins" "$HOME/.oh-my-zsh/custom/plugins" false
-    symlink "$(pwd)/oh-my-zsh/themes" "$HOME/.oh-my-zsh/custom/themes" false
-
     # vscode
     symlink "$(pwd)/vscode/settings.json" "$HOME/Library/Application\ Support/Code/User/settings.json" false
 }
