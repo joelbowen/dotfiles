@@ -34,6 +34,7 @@ Setting up a new machine is easy, done in two parts.
 
 1. Sign into the Mac App Store so that `mas` will be able to install App Store apps
 2. Run `sh ./install.sh`
+2. Run `sh ./part-1.sh`
 3. Update some settings in **iTerm**
    - Select a Powershell patched font for iTerm (Preferences → Profiles → Text)
      - Currently, I'm using `Inconsolata for Powerline`
@@ -44,7 +45,7 @@ Setting up a new machine is easy, done in two parts.
 ### Part 2: Setup (Tooling and Configurations)
 
 1. Launch **iTerm** (see your snazzy new setup)
-2. Run `sh ./setup.sh`
+2. Run `sh ./part-2.sh`
 3. Add license keys/logins for:
    - Git Tower
    - Sketch
