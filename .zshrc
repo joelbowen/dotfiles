@@ -41,9 +41,10 @@ PATH="$PATH:/usr/local/sbin"
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 PATH=$PATH:$GOBIN
-# Android Stuff
-export ANDROID_SDK=/Users/joel/Library/Android/sdk
-PATH=/Users/joel/Library/Android/sdk/platform-tools:$PATH
+
+# Android stuff
+export ANDROID_SDK=/Users/$DEFAULT_USER/Library/Android/sdk
+PATH=/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools:$PATH
 
 export PATH
 
