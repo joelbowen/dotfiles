@@ -69,6 +69,7 @@ To add more, update the oh-my-zsh install script in [./install/oh-my-zsh.sh](./i
 - [zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion)
 - [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [z](https://github.com/agkozak/zsh-z)
 
 ### Themes
 

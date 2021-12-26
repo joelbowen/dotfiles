@@ -21,6 +21,7 @@ plugins=(
   zsh-better-npm-completion
   zsh-nvm
   zsh-syntax-highlighting
+  zsh-z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -66,9 +67,6 @@ function chpwd() {
   emulate -L zsh
   ls -a
 }
-# -- EXTRAS --
-# rupa/z.sh
-. /usr/local/etc/profile.d/z.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
