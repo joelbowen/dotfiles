@@ -26,6 +26,7 @@ cask 'brave-browser'
 cask 'cyberduck'
 cask 'db-browser-for-sqlite'
 cask 'discord'
+cask 'divvy'
 cask 'docker'
 cask 'firefox'
 cask 'font-hack-nerd-font'
@@ -49,10 +50,9 @@ cask 'spotify'
 cask 'vlc'
 cask 'visual-studio-code'
 cask 'zeplin'
-cask 'zoomus'
+cask 'zoom'
 
 # Mac Store apps via mas
 # https://github.com/mas-cli/mas
-mas 'Xcode', id: 497799835
 mas 'Space Gremlin', id: 414515628
 mas 'Boop', id: 1518425043
