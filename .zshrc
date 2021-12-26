@@ -46,6 +46,9 @@ PATH=$PATH:$GOBIN
 export ANDROID_SDK=/Users/$DEFAULT_USER/Library/Android/sdk
 PATH=/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools:$PATH
 
+# Brew stuff
+PATH=/opt/homebrew/bin:$PATH
+
 export PATH
 
 
