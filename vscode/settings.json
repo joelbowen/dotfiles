@@ -50,16 +50,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "json.schemas": [
-    {
-      "name": "vscode-expo-manifest",
-      "url": "file:///Users/joel/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
-      "fileMatch": [
-        "app.json",
-        "app.config.json"
-      ]
-    }
-  ],
   "emmet.includeLanguages": {
     "erb": "html",
     "ruby": "html"
