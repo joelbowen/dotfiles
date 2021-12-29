@@ -20,6 +20,9 @@ defaults write com.apple.screencapture location -string "$HOME/Desktop/Screensho
 # Show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES;
 
+# Use plain text mode for new TextEdit documents
+defaults write com.apple.TextEdit RichText -int 0
+
 # No more going backwards in chrome
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
 
