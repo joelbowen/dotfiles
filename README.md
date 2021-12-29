@@ -52,11 +52,11 @@ Setting up a new machine is easy, done in two parts.
    - Sketch
    - Adobe CC (I also have to individually download the Adobe apps I use in CC 🙄)
    - Navicat for PostgreSQL
-4. Setup a new GitHub [personal access token](https://github.com/settings/tokens) for this machine
 
 _Note: You may need to do the following commands to finish setup_
 
 - in Vim: `:PlugInstall`
+- Setup a new GitHub [personal access token](https://github.com/settings/tokens) for this machine
 
 ## Appendix
 
