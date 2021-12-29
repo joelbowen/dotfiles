@@ -25,7 +25,7 @@ if answer_is_yes; then
 
     print_in_purple "\nAll done!\n\n"
     print_in_green "\nNote that some of these changes require a logout/restart to take effect.\n\n"
-    print_in_green "\nWhen you're ready, proceed to the next step with: $ sh ./setup.sh\n\n"
+    print_in_green "\nWhen you're ready, proceed to the next step with: $ sh ./step-2.sh\n\n"
 
 else
     print_error "Aborted install"
