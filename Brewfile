@@ -2,6 +2,7 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
+tap 'mongodb/brew'
 
 # Binaries
 brew 'awscli'
@@ -12,6 +13,8 @@ brew 'go'
 brew 'heroku'
 brew 'lzo'
 brew 'mas' # Mac App Store manager
+brew 'mongodb-community@4.4'
+brew 'mongosh'
 brew 'mysql' # Installs latest version of MySQL
 brew 'pgcli'
 brew 'postgresql', restart_service: true
