@@ -1,6 +1,8 @@
 . "./utils/helpers.sh"
 
 declare -a VSCODE_EXTENSIONS=(
+    byCedric.vscode-expo
+    castwide.solargraph
     christian-kohler.npm-intellisense
     dbaeumer.vscode-eslint
     eamodio.gitlens
@@ -8,12 +10,26 @@ declare -a VSCODE_EXTENSIONS=(
     esbenp.prettier-vscode
     golang.go
     GraphQL.vscode-graphql
+    hbenl.vscode-test-explorer
+    jemmyw.rails-fast-nav
+    jnbt.vscode-rufo
+    JuanBlanco.solidity
+    misogi.ruby-rubocop
+    ms-azuretools.vscode-docker
     ms-python.python
+    ms-python.vscode-pylance
+    ms-toolsai.jupyter
+    ms-toolsai.jupyter-keymap
+    ms-toolsai.jupyter-renderers
+    ms-vscode.test-adapter-converter
     ms-vsliveshare.vsliveshare
     octref.vetur
+    Prisma.prisma
     rebornix.ruby
+    streetsidesoftware.code-spell-checker
     tombonnike.vscode-status-bar-format-toggle
     vscode-icons-team.vscode-icons
+    vscodevim.vim
     wingrunr21.vscode-ruby
     wix.vscode-import-cost
 )
