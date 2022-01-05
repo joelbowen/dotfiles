@@ -31,6 +31,8 @@ source $ZSH/oh-my-zsh.sh
 DEFAULT_USER=$(whoami)
 POWERLEVEL9K_MODE="awesome-patched"
 
+export EDITOR=vim
+export VISUAL="$EDITOR"
 
 # -- PATH MANAGEMENT ----
 
