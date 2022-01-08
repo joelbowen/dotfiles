@@ -7,6 +7,7 @@ tap 'mongodb/brew'
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
+brew 'cocoapods'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'go'
@@ -18,6 +19,7 @@ brew 'mongosh'
 brew 'mysql' # Installs latest version of MySQL
 brew 'pgcli'
 brew 'postgresql', restart_service: true
+brew 'watchman'
 brew 'yarn'
 brew 'z'
 brew 'zsh'
@@ -25,6 +27,7 @@ brew 'zsh-syntax-highlighting'
 
 # Cask Apps
 cask 'adobe-creative-cloud'
+cask 'android-studio'
 cask 'brave-browser'
 cask 'cyberduck'
 cask 'db-browser-for-sqlite'
@@ -37,6 +40,7 @@ cask 'font-inconsolata'
 cask 'font-inconsolata-for-powerline'
 cask 'ganache'
 cask 'google-chrome'
+cask 'gpg-suite'
 cask 'graphql-playground'
 cask 'iterm2'
 cask 'kindle'
@@ -45,6 +49,8 @@ cask 'miro'
 cask 'mysqlworkbench'
 cask 'navicat-for-postgresql'
 cask 'postman'
+cask 'react-native-debugger'
+cask 'robo-3t'
 cask 'sequel-pro'
 cask 'signal'
 cask 'sketch'
@@ -59,5 +65,6 @@ cask 'zoom'
 
 # Mac Store apps via mas
 # https://github.com/mas-cli/mas
-mas 'Space Gremlin', id: 414515628
+mas 'Barracuda VPN Client', id: 1555242566
 mas 'Boop', id: 1518425043
+mas 'Space Gremlin', id: 414515628
