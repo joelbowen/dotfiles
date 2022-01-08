@@ -49,6 +49,8 @@ PATH=$PATH:$GOBIN
 
 # Android stuff
 export ANDROID_SDK=/Users/$DEFAULT_USER/Library/Android/sdk
+export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home
+
 PATH=/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools:$PATH
 
 # Brew stuff
