@@ -1,6 +1,11 @@
 [user]
-        name = Joel Bowen
-        email = hello@joel.software
+    name = Joel Bowen
+    email = 1557848+joelbowen@users.noreply.github.com
+    signingkey = BDE1D4D5D62D9049
+[commit]
+    gpgSign = true
+[gpg]
+    program = /usr/local/bin/gpg
 [alias]
     # Special thanks to jlegrone for these aliases
     # source: https://raw.githubusercontent.com/jlegrone/git-config/master/src/jlegrone.gitconfig
