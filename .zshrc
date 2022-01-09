@@ -51,10 +51,10 @@ PATH=$PATH:$GOBIN
 export ANDROID_SDK=/Users/$DEFAULT_USER/Library/Android/sdk
 export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home
 
-PATH=/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools:$PATH
+PATH=$PATH:/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools
 
 # Brew stuff
-PATH=/opt/homebrew/bin:$PATH
+PATH=$PATH:/opt/homebrew/bin
 
 export PATH
 
