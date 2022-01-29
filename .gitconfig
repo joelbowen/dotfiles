@@ -1,7 +1,7 @@
 [user]
-    name = Joel Bowen
-    email = 1557848+joelbowen@users.noreply.github.com
-    signingkey = BDE1D4D5D62D9049
+	name = Joel Bowen
+	email = 1557848+joelbowen@users.noreply.github.com
+	signingkey = 957B042C00159BCC0EFF5292BDE1D4D5D62D9049
 [commit]
     gpgSign = true
 [gpg]
