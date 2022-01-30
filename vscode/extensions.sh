@@ -8,9 +8,11 @@ declare -a VSCODE_EXTENSIONS=(
     eamodio.gitlens
     EditorConfig.EditorConfig
     esbenp.prettier-vscode
+    GitHub.codespaces
     golang.go
     GraphQL.vscode-graphql
     hbenl.vscode-test-explorer
+    herrmannplatz.npm-dependency-links
     jemmyw.rails-fast-nav
     jnbt.vscode-rufo
     JuanBlanco.solidity
