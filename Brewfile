@@ -71,3 +71,4 @@ cask 'zoom'
 mas 'Barracuda VPN Client', id: 1555242566
 mas 'Boop', id: 1518425043
 mas 'Space Gremlin', id: 414515628
+mas 'Xcode', id: 497799835
