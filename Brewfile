@@ -12,6 +12,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'go'
 brew 'heroku'
+brew 'imagemagick'
 brew 'imageoptim-cli'
 brew 'lzo'
 brew 'mas' # Mac App Store manager
@@ -19,6 +20,8 @@ brew 'mongodb-community@4.4'
 brew 'mongosh'
 brew 'mysql' # Installs latest version of MySQL
 brew 'pgcli'
+brew 'php'
+brew 'phpunit'
 brew 'postgresql', restart_service: true
 brew 'watchman'
 brew 'yarn'
