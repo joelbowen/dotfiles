@@ -5,7 +5,7 @@ tap 'heroku/brew'
 tap 'mongodb/brew'
 
 # Binaries
-brew 'awscli'
+brew 'awscli@1'
 brew 'bash' # Latest Bash version
 brew 'cocoapods'
 brew 'coreutils' # Those that come with macOS are outdated
