@@ -33,6 +33,7 @@ POWERLEVEL9K_MODE="awesome-patched"
 
 export EDITOR=vim
 export VISUAL="$EDITOR"
+export DEVHOME="$HOME/dev"
 
 # -- PATH MANAGEMENT ----
 
@@ -57,6 +58,9 @@ PATH=$PATH:/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools
 
 # Brew stuff
 PATH=$PATH:/opt/homebrew/bin
+
+# Dev home stuff
+PATH=$PATH:$DEVHOME/bin
 
 export PATH
 
