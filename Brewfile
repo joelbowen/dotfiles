@@ -7,8 +7,8 @@ tap 'mongodb/brew'
 # Binaries
 brew 'awscli@1'
 brew 'bash' # Latest Bash version
-brew 'cocoapods'
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'cfn-lint'
 brew 'git'
 brew 'go'
 brew 'heroku'
@@ -23,6 +23,7 @@ brew 'pgcli'
 brew 'php'
 brew 'phpunit'
 brew 'postgresql', restart_service: true
+brew 'redis'
 brew 'watchman'
 brew 'yarn'
 brew 'z'
