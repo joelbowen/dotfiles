@@ -18,3 +18,4 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 :set number
 :syntax enable
 
+nmap <C-p> <Plug>MarkdownPreviewToggle
