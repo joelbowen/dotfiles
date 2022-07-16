@@ -62,17 +62,47 @@
   "json.schemas": [
     {
       "name": "vscode-expo-manifest",
-      "url": "file:///Users/joelbowen/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
-      "fileMatch": [
-        "app.json",
-        "app.config.json"
-      ]
+      "url": "file:///Users/joelbowen/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
+      "fileMatch": ["app.json", "app.config.json"]
     }
   ],
   "vsicons.dontShowNewVersionMessage": true,
-  "cSpell.enableFiletypes": [
-    "!typescriptreact"
-  ],
+  "cSpell.enableFiletypes": ["!typescriptreact"],
   "prettier.requireConfig": true,
-  "window.zoomLevel": 1
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "yaml.validate": false,
+  "redhat.telemetry.enabled": false,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.inlineSuggest.enabled": true
 }
