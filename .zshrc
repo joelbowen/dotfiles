@@ -68,6 +68,8 @@ PATH=$PATH:/Users/$DEFAULT_USER/Library/Python/3.9/bin
 alias python="python3"
 export PATH
 
+# Rust
+source "$HOME/.cargo/env"
 
 # -- ALIASES ----
 # Open VSCode
