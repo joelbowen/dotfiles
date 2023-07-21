@@ -9,7 +9,7 @@ Welcome to my dotfiles! I was inspired by [many others](#credits) before me, I c
 
 ## Maintenance
 
-### Manage global node packages
+### Update list of global node packages
 
 To update the list of globally installed node packages, run:
 
@@ -20,6 +20,16 @@ _Requires that [zx](https://www.npmjs.com/package/zx) is already installed to ru
 To install global node packages, run:
 
 `sh ./scripts/install-global-node-pkgs.sh`
+
+### Update list of VSCode Extensions
+
+To update the list of VSCode extensions, run:
+
+`sh ./vscode/update-vscode-extensions.sh`
+
+To install VSCode extensions, run:
+
+`sh ./vscode/install-vscode-extensions.sh`
 
 ### Symlink new dotfiles
 

@@ -16,7 +16,7 @@ if answer_is_yes; then
     # Ruby (via rvm)
     sh "./ruby/setup.sh"
     # VS Code extensions
-    sh "./vscode/extensions.sh"
+    sh "./vscode/install-vscode-extensions.sh"
 
     print_in_purple "\nAll done!\n\n"
 
