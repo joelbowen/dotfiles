@@ -59,13 +59,7 @@
     "editor.renderWhitespace": "all",
     "editor.acceptSuggestionOnEnter": "off"
   },
-  "json.schemas": [
-    {
-      "name": "vscode-expo-manifest",
-      "url": "file:///Users/joelbowen/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
-      "fileMatch": ["app.json", "app.config.json"]
-    }
-  ],
+  "json.schemas": [],
   "vsicons.dontShowNewVersionMessage": true,
   "cSpell.enableFiletypes": ["!typescriptreact"],
   "prettier.requireConfig": true,
