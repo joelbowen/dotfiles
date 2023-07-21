@@ -97,3 +97,10 @@ export PATH="/opt/homebrew/opt/awscli@1/bin:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f "/Users/$DEFAULT_USER/google-cloud-sdk/path.zsh.inc" ]; then . "/Users/$DEFAULT_USER/google-cloud-sdk/path.zsh.inc"; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f "/Users/$DEFAULT_USER/google-cloud-sdk/completion.zsh.inc" ]; then . "/Users/$DEFAULT_USER/google-cloud-sdk/completion.zsh.inc"; fi
+
