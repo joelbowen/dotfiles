@@ -51,7 +51,7 @@ PATH=$PATH:$GOBIN
 
 # Android stuff
 export ANDROID_SDK=/Users/$DEFAULT_USER/Library/Android/sdk
-export ANROID_SDK_ROOT=$ANDROID_SDK
+export ANDROID_SDK_ROOT=$ANDROID_SDK
 
 export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home
 
