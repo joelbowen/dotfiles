@@ -60,9 +60,12 @@ PATH=$PATH:/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools
 # Brew stuff
 PATH=$PATH:/opt/homebrew/bin
 
-# Dev home stuff
+# Dev home stuff for some personal bin files
 PATH=$PATH:$DEVHOME/bin
 
+# Python stuff
+PATH=$PATH:/Users/joelbowen/Library/Python/3.8/bin
+alias python="python3"
 export PATH
 
 
