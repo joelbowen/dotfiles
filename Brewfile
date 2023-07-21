@@ -3,15 +3,18 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
 tap 'mongodb/brew'
+tap 'facebook/fb'
 
 # Binaries
 brew 'awscli@1'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'cfn-lint'
-brew 'git'
-brew 'go'
 brew 'heroku'
+brew 'git'
+brew 'gh'
+brew 'go'
+brew 'idb-companion'
 brew 'imagemagick'
 brew 'imageoptim-cli'
 brew 'lzo'
@@ -19,10 +22,12 @@ brew 'mas' # Mac App Store manager
 brew 'mongodb-community@4.4'
 brew 'mongosh'
 brew 'mysql' # Installs latest version of MySQL
+brew 'pandoc'
 brew 'pgcli'
 brew 'php'
 brew 'phpunit'
 brew 'postgresql', restart_service: true
+brew 'pwgen'
 brew 'redis'
 brew 'watchman'
 brew 'yarn'
@@ -72,7 +77,6 @@ cask 'zoom'
 
 # Mac Store apps via mas
 # https://github.com/mas-cli/mas
-mas 'Barracuda VPN Client', id: 1555242566
 mas 'Boop', id: 1518425043
 mas 'Space Gremlin', id: 414515628
 mas 'Xcode', id: 497799835
