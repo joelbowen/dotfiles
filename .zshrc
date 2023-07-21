@@ -64,7 +64,7 @@ PATH=$PATH:/opt/homebrew/bin
 PATH=$PATH:$DEVHOME/bin
 
 # Python stuff
-PATH=$PATH:/Users/$DEFAULT_USER/Library/Python/3.8/bin
+PATH=$PATH:/Users/$DEFAULT_USER/Library/Python/3.9/bin
 alias python="python3"
 export PATH
 
