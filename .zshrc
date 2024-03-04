@@ -19,7 +19,6 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-better-npm-completion
-  zsh-completions
   zsh-nvm
   zsh-syntax-highlighting
   zsh-z
