@@ -101,7 +101,8 @@
   "workbench.sideBar.location": "right",
   "githubPullRequests.pullBranch": "never",
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "eeyore.yapf"
   },
   "window.zoomLevel": 1,
   "github.copilot.enable": {
