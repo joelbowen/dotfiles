@@ -104,7 +104,6 @@
     "editor.formatOnType": true,
     "editor.defaultFormatter": "eeyore.yapf"
   },
-  "window.zoomLevel": 1,
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
@@ -113,5 +112,7 @@
   },
   "aws.suppressPrompts": {
     "regionAddAutomatically": true
-  }
+  },
+  "window.zoomLevel": 1,
+  "editor.stickyScroll.enabled": true
 }
