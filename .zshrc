@@ -82,6 +82,8 @@ alias nuke="git clean -df && git reset --hard"
 alias gl="git log --oneline --decorate --color"
 # Pour my brews
 alias ibrew="cd ~/dotfiles && sh ./install/homebrew.sh"
+# Neovim
+alias vim="nvim"
 
 # -- FUNCTIONS ----
 weather() { curl -4 wttr.in/${1:-charlotte} }

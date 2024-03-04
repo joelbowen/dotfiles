@@ -22,6 +22,7 @@ brew 'mas' # Mac App Store manager
 brew 'mongodb-community@4.4'
 brew 'mongosh'
 brew 'mysql' # Installs latest version of MySQL
+brew 'neovim'
 brew 'pandoc'
 brew 'pgcli'
 brew 'php'
