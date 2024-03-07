@@ -71,18 +71,27 @@ export PATH
 source "$HOME/.cargo/env"
 
 # -- ALIASES ----
+
 # Open VSCode
 alias c='code'
+
 # Refresh an npm repo
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
+
 # When mistakes have been made
 alias nuke="git clean -df && git reset --hard"
+
 # Git
 alias gl="git log --oneline --decorate --color"
+
 # Pour my brews
 alias ibrew="cd ~/dotfiles && sh ./install/homebrew.sh"
+
 # Neovim
 alias vim="nvim"
+
+# Clear registr
+alias kk="clear"
 
 # -- FUNCTIONS ----
 weather() { curl -4 wttr.in/${1:-charlotte} }
