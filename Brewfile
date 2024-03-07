@@ -1,7 +1,6 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
-tap 'heroku/brew'
 tap 'mongodb/brew'
 tap 'facebook/fb'
 
@@ -10,7 +9,6 @@ brew 'awscli@1'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'cfn-lint'
-brew 'heroku'
 brew 'git'
 brew 'gh'
 brew 'go'
