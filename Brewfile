@@ -28,6 +28,7 @@ brew 'phpunit'
 brew 'postgresql', restart_service: true
 brew 'pwgen'
 brew 'redis'
+brew 'tmux'
 brew 'watchman'
 brew 'yarn'
 brew 'z'
