@@ -70,6 +70,9 @@ export PATH
 # Rust
 source "$HOME/.cargo/env"
 
+# Fuzzy Finder
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+
 # -- ALIASES ----
 
 # Open VSCode
@@ -92,6 +95,9 @@ alias vim="nvim"
 
 # Clear registr
 alias kk="clear"
+
+# Fuzzy Find and open with vim
+alias ff="fzf --print0 | xargs -0 -o vim"
 
 # -- FUNCTIONS ----
 weather() { curl -4 wttr.in/${1:-charlotte} }

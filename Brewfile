@@ -9,6 +9,8 @@ brew 'awscli@1'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'cfn-lint'
+brew 'fd'
+brew 'fzf'
 brew 'git'
 brew 'gh'
 brew 'go'
