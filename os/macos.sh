@@ -55,6 +55,8 @@ defaults write com.apple.systemuiserver menuExtras -array \
    "/System/Library/CoreServices/Menu Extras/Battery.menu" \
    "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
+defaults write com.apple.controlcenter.plist Bluetooth -int 18
+
 # Enable key-repeating in VS Code, especially useful for the Vim extension
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
