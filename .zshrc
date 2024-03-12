@@ -70,8 +70,8 @@ export PATH
 # Rust
 source "$HOME/.cargo/env"
 
-# Fuzzy Finder
-export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+# Fuzzy Finder Configuration
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # -- ALIASES ----
 
@@ -83,6 +83,9 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 
 # When mistakes have been made
 alias nuke="git clean -df && git reset --hard"
+
+# Fuzzy Find and open with vim
+alias ff="fzf --print0 | xargs -0 -o vim"
 
 # Git
 alias gl="git log --oneline --decorate --color"
@@ -96,8 +99,6 @@ alias vim="nvim"
 # Clear registr
 alias kk="clear"
 
-# Fuzzy Find and open with vim
-alias ff="fzf --print0 | xargs -0 -o vim"
 
 # -- FUNCTIONS ----
 weather() { curl -4 wttr.in/${1:-charlotte} }

@@ -16,6 +16,8 @@ if answer_is_yes; then
     sh "./install/homebrew.sh"
     # Oh My Zsh
     sh "./install/oh-my-zsh.sh"
+    # Configure fzf
+    sh "./install/fzf.sh"
     # vim-plug
     sh "./install/vim.sh"
     # Symlinks
