@@ -29,6 +29,7 @@ brew 'phpunit'
 brew 'postgresql', restart_service: true
 brew 'pwgen'
 brew 'redis'
+brew 'saml2aws'
 brew 'tmux'
 brew 'watchman'
 brew 'yarn'
