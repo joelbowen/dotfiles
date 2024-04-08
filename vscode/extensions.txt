@@ -12,7 +12,6 @@ expo.vscode-expo-tools
 github.codespaces
 github.copilot
 github.copilot-chat
-github.copilot-labs
 golang.go
 graphql.vscode-graphql
 graphql.vscode-graphql-syntax
@@ -51,7 +50,6 @@ tombonnike.vscode-status-bar-format-toggle
 vscode-icons-team.vscode-icons
 vscodevim.vim
 wayou.vscode-todo-highlight
-wingrunr21.vscode-ruby
 wix.glean
 wix.vscode-import-cost
 yzhang.markdown-all-in-one
