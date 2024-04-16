@@ -6,8 +6,12 @@ tap 'facebook/fb'
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
+brew 'colima'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'cfn-lint'
+brew 'docker'
+brew 'docker-compose'
+brew 'docker-credential-helper'
 brew 'fd'
 brew 'fzf'
 brew 'git'
