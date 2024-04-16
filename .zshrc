@@ -65,6 +65,8 @@ PATH=$PATH:$DEVHOME/bin
 # Python stuff
 PATH=$PATH:/Users/$DEFAULT_USER/Library/Python/3.9/bin
 alias python="python3"
+alias pip="pip3"
+
 export PATH
 
 # Rust
