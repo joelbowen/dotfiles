@@ -114,7 +114,10 @@ weather() { curl -4 wttr.in/${1:-charlotte} }
 
 function chpwd() {
   emulate -L zsh
-  ls -a
+  # Only run 'ls -a' if the SUPPRESS_LS variable is not set
+  if [[ -z "$SUPPRESS_LS" ]]; then
+    ls -a
+  fi
 }
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -128,4 +131,9 @@ if [ -f "/Users/$DEFAULT_USER/google-cloud-sdk/path.zsh.inc" ]; then . "/Users/$
 
 # The next line enables shell command completion for gcloud.
 if [ -f "/Users/$DEFAULT_USER/google-cloud-sdk/completion.zsh.inc" ]; then . "/Users/$DEFAULT_USER/google-cloud-sdk/completion.zsh.inc"; fi
+
+# Default directory without running LS
+export SUPPRESS_LS=1
+cd $DEVHOME
+unset SUPPRESS_LS
 
