@@ -101,6 +101,11 @@ alias vim="nvim"
 # Clear registr
 alias kk="clear"
 
+# -- KEYBINDINGS --
+
+# Fuzzy search directories and open a new TMUX session
+bindkey -s "^f" "~/dotfiles/utils/sessionizer\n"
+
 # AWS ---
 # AWS Role TTL
 export AWS_ASSUME_ROLE_TTL=1h
@@ -132,8 +137,9 @@ if [ -f "/Users/$DEFAULT_USER/google-cloud-sdk/path.zsh.inc" ]; then . "/Users/$
 # The next line enables shell command completion for gcloud.
 if [ -f "/Users/$DEFAULT_USER/google-cloud-sdk/completion.zsh.inc" ]; then . "/Users/$DEFAULT_USER/google-cloud-sdk/completion.zsh.inc"; fi
 
+# May bring this back later...
 # Default directory without running LS
-export SUPPRESS_LS=1
-cd $DEVHOME
-unset SUPPRESS_LS
+# export SUPPRESS_LS=1
+# cd $DEVHOME
+# unset SUPPRESS_LS
 
