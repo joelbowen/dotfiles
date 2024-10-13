@@ -1,19 +1,16 @@
 #!/usr/bin/env bash
 # Search existing sessions
-session=$(tmux list-sessions -F "#S" | fzf --reverse)
-if [ -n "$session" ]; then
+session=$( (tmux list-sessions -F "#S"; find ~ ~/dev ~/dev/src ~/dotfiles -mindepth 1 -maxdepth 2 -type d) | fzf --reverse)
+
+# If session exists, switch to it
+if tmux has-session -t "$session" 2> /dev/null; then
   tmux switch-client -t "$session"
   exit 0
 fi
 
-# No session was selected, search for a directory to create a new session
-session=$(find ~ ~/dev ~/dev/src ~/dotfiles -mindepth 1 -maxdepth 2 -type d | fzf)
+# We didn't switch to a session, so this must be a directory, create a new session
 session_name=$(basename "$session" | tr . _)
-
-# If a session doesn't exist, create one
-if ! tmux has-session -t "$session_name" 2> /dev/null; then
-  tmux new-session -s "$session_name" -c "$session" -d
-fi
+tmux new-session -s "$session_name" -c "$session" -d
 
 # Switch to the new/existing session
 tmux switch-client -t "$session_name"
