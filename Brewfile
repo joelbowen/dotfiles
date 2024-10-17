@@ -1,5 +1,6 @@
 # Taps
 tap 'homebrew/cask-fonts'
+tap 'hashicorp/tap'
 tap 'mongodb/brew'
 tap 'facebook/fb'
 
@@ -17,6 +18,7 @@ brew 'fzf'
 brew 'git'
 brew 'gh'
 brew 'go'
+brew 'hashicorp/tap/terraform'
 brew 'idb-companion'
 brew 'imagemagick'
 brew 'imageoptim-cli'
