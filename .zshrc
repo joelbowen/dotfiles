@@ -106,6 +106,9 @@ alias kk="clear"
 # Fuzzy search directories and open a new TMUX session
 bindkey -s "^f" "~/dotfiles/utils/sessionizer\n"
 
+# List all assigned PRs
+alias prs="~/dotfiles/utils/prs"
+
 # AWS ---
 # AWS Role TTL
 export AWS_ASSUME_ROLE_TTL=1h

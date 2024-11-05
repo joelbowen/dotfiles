@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Create headers using the same JSON format returned by the GH CLI
+headers=$(jq -n '[{"repository": {"name": "Repository"}, "number": "Number", "author": {"login": "Author"}, "title": "Title", "url": "URL", "updatedAt": "Updated At"}]')
+
+# Search for PRs assigned to me using the GH CLI
+# Format with jq: https://stedolan.github.io/jq/manual/
+gh search prs --assignee=@me --state=open --json repository,number,author,title,url,updatedAt | \
+jq -s --argjson headers "$headers" '$headers + .[0]' | \
+jq -r '.[] | [.repository.name, .number, .author.login, .title, .url, .updatedAt] | @tsv' | \
+column -t -s $'\t'

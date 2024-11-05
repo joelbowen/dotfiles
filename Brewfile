@@ -22,6 +22,7 @@ brew 'hashicorp/tap/terraform'
 brew 'idb-companion'
 brew 'imagemagick'
 brew 'imageoptim-cli'
+brew 'jq'
 brew 'lzo' # Data compression library
 brew 'mas' # Mac App Store manager
 brew 'mongodb-community@4.4'
