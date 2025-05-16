@@ -78,6 +78,7 @@ source "$HOME/.cargo/env"
 
 # Open VSCode
 alias c='code'
+alias ci='code-insiders'
 
 # Refresh an npm repo
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
