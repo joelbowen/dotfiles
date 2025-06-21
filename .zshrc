@@ -101,6 +101,8 @@ alias vim="nvim"
 # Clear registr
 alias kk="clear"
 
+eval "$(gh copilot alias -- zsh)"
+
 # -- KEYBINDINGS --
 
 # Fuzzy search directories and open a new TMUX session
