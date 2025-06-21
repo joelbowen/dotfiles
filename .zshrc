@@ -69,7 +69,7 @@ alias pip="pip3"
 export PATH
 
 # Rust
-source "$HOME/.cargo/env"
+# source "$HOME/.cargo/env"
 
 # Fuzzy Finder Configuration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
