@@ -1,6 +1,6 @@
 set nocompatible
 
-call plug#begin('~/.vim/plugged')
+call plug#begin()
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'

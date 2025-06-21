@@ -2,3 +2,4 @@ Brewfile.lock.json
 .vim
 .DS_Store
 *.swp
+/.config/goose
